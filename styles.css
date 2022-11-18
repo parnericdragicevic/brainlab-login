@@ -1,15 +1,14 @@
 body {
-  margin: 0;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  height: 100vh;
   background: #fcd530;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .card {
-  
   width: 1000px;
   height: 500px;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
@@ -29,11 +28,11 @@ header {
 
 .main {
   display: flex;
+  height: 100%;
 }
 
 img {
   width: 50%;
-  height: 430px;
   border-bottom-left-radius: 15px;
 }
 
@@ -45,4 +44,9 @@ img {
   width: 50%;
   background: white;
   border-bottom-right-radius: 15px;
+}
+
+.input__p {
+  font-weight: bold;
+
 }
